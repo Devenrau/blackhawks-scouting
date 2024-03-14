@@ -14,6 +14,10 @@
           }
         },
         {
+          "type": "spacer",
+          "height": 5
+        },
+        {
           "name": "Starting Position",
           "type": "positions",
           "file": "field.png",
@@ -24,6 +28,10 @@
     {
       "name": "Autonomous",
       "widgets": [
+        {
+          "type": "spacer",
+          "height": 5
+        },
         {
           "name": "Left Starting Zone",
           "type": "checkbox"
@@ -38,14 +46,12 @@
           "prefix": "Auto"
         },
         {
-          "name": "Speaker Notes",
-          "type": "spinbox",
-          "prefix": "Auto"
+          "type": "spacer",
+          "height": 10
         },
         {
-          "name": "Trap Notes",
+          "name": "Speaker Notes",
           "type": "spinbox",
-          "max": 3,
           "prefix": "Auto"
         }
       ]
@@ -80,21 +86,29 @@
           "type": "spinbox"
         },
         {
-          "name": "Amplified Speaker Notes",
+          "name": "Amp Notes",
           "type": "spinbox",
           "row": 4,
           "col": 3
         },
         {
-          "name": "Amp Notes",
-          "type": "spinbox"
+          "name": "Amplified Speaker",
+          "type": "spinbox",
+          "col": 2
         },
         {
-          "name": "Trap Notes",
+          "name": "Assists",
           "type": "spinbox",
-          "max": 3,
-          "row": 5,
-          "col": 3
+          "col": 2
+        },
+        {
+          "type": "spacer",
+          "height": 5
+        },
+        {
+          "name": "Tipped",
+          "type": "checkbox",
+          "col": 2
         },
         {
           "name": "Co-op Bonus",
@@ -103,7 +117,7 @@
         },
         {
           "type": "spacer",
-          "height": 20
+          "height": 5
         },
         {
           "name": "Defense Rating",
@@ -117,15 +131,6 @@
             "5 (Very Effective)"
           ],
           "col": 2
-        },
-        {
-          "name": "Tipped",
-          "type": "checkbox",
-          "col": 2
-        },
-        {
-          "name": "Assists",
-          "type": "spinbox"
         }
       ]
     },
@@ -148,26 +153,12 @@
           "type": "checkbox"
         },
         {
-          "name": "Robots Onstage",
-          "type": "multicheckbox",
-          "options": [
-            "Stage Left",
-            "Stage Right",
-            "Center Stage"
-          ]
-        },
-        {
           "name": "Harmony",
           "type": "checkbox"
         },
         {
-          "name": "Trap Note Positions",
-          "type": "multicheckbox",
-          "options": [
-            "Stage Left",
-            "Stage Right",
-            "Center Stage"
-          ]
+          "name": "Trap Notes Scored",
+          "type": "spinbox"
         },
         {
           "name": "Mechanical Failures",
